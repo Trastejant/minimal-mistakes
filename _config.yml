@@ -25,7 +25,7 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/cabecera.jpg"
-logo                     : #"/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Nano"
   avatar           : "/assets/images/avatar.png"
-  bio              : "I am an **amazing** person."
+  bio              : "Desde muy pequeño siempre he sentido fascinación por la tecología y por el desarrollo de la misma. Empecé muy pronto a aprender a programar y mi interés por estos temas me ha llevado a mantenerme en un estado de aprendizaje continuo, investigando nuevas tecnologías, manteniendome al día de las últimas tendencias y en un proceso de mejora que nunca termina. Me considero afortunado de haber podido hacer de mi pasión mi profesión y a continuación resumo mis principales campos de experiencia."
   location         : "Madrid, Spain"
   email            :
   links:

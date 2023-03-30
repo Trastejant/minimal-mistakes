@@ -3,34 +3,35 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+  overlay_color: "#000000"
+
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+  Crea, comparte, aprende y disfruta.<br />
+  <small><a href="https://github.com/trastejant"><i class="fab fa-github"></i></a></small> 
+  ·
+  <small><a href="https://twitter.com/trastejant"><i class="fab fa-fw fa-twitter-square"></i></a></small> 
+  ·
+  <small><a href="https://youtube.com/trastejant"><i class="fab fa-youtube"></i></a></small> 
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/bloque-proyectos.png
     alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Proyectos, tutoriales y explicaciones en vídeo."
-    url: "/youtube/"
+    title: "Proyectos"
+    excerpt: "Proyectos documentados y explicados paso a paso para que puedas desarrollarlos."
+    url: "/proyectos/"
     btn_class: "btn--primary"
     btn_label: "Ver más"
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/bloque-eventos.png
     alt: "fully responsive"
     title: "Eventos y noticias"
     excerpt: "Noticias sobre el mundo del Hardware Libre, eventos y competiciones."
     url: "/news/"
     btn_class: "btn--primary"
     btn_label: "Ver más"
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/bloque-tutoriales.png
     alt: "100% free"
-    title: "Repositorios"
-    excerpt: "Repositorios a todos los proyectos, recursos y todo lo necesario para crearlos tu mismo"
-    url: "/github/"
+    title: "Tutoriales"
+    excerpt: "Tutoriales sobre electronica y el uso de los sensores y actuadores más comunes."
+    url: "/tutoriales/"
     btn_class: "btn--primary"
     btn_label: "Ver más"      
 ---

@@ -1,5 +1,8 @@
 ---
 title: "Tutorial 1"
+layout: single
+header:
+  overlay_color: "#000000"
 excerpt: "A tabby is any domestic cat that has a coat featuring distinctive stripes, dots, lines or swirling patterns, usually with a mark resembling an 'M' on its forehead."
 ---
 

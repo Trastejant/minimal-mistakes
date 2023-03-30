@@ -1,9 +1,9 @@
 ---
 layout: splash
 permalink: /about/
-classes:
-  - landing
-  - dark-theme
+title: "Contacto"
+header:
+  overlay_color: "#000000"
 ---
 
 # About...
