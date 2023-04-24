@@ -10,4 +10,4 @@ header:
   overlay_color: "#000000"
 ---
 
-Sample document listing for the collection `_pets`.
+Tutoriales paso a paso para aprender a usar los componentes más populares. 
