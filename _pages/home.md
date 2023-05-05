@@ -22,9 +22,9 @@ feature_row:
     btn_label: "Ver más"
   - image_path: /assets/images/bloque-eventos.png
     alt: "fully responsive"
-    title: "Eventos y noticias"
+    title: "Blog"
     excerpt: "Noticias sobre el mundo del Hardware Libre, eventos y competiciones."
-    url: "/news/"
+    url: "/year-archive/"
     btn_class: "btn--primary"
     btn_label: "Ver más"
   - image_path: /assets/images/bloque-tutoriales.png
