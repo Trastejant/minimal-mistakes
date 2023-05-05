@@ -3,6 +3,7 @@ title: "Invernadero 2.0"
 layout: single
 header:
   overlay_color: "#000000"
+  teaser: http://placehold.it/350x250
 excerpt: "Control de temperatura, humedad e iluminación de forma autonoma."
 sidebar:
   - title: "Invernadero 2.0"
@@ -30,6 +31,23 @@ sidebar:
         - [Imprimir las piezas]()
 
         - [Tornillería]()
+
+
+        __Electronica__
+
+        - [Sensor de luminosidad BH1750]()
+        
+        - [Sensor de humedad y temperatura DHT22]()
+        
+        - 4 x [Mosfet]()
+        
+        - 2 x [Relé]()
+        
+        - [Sensor DTS]()
+        
+        - [Sensor de inundación]()
+        
+        - [Sensor de CO2]()
         "
 
 toc: true
@@ -81,11 +99,47 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas ipsum ut 
 
 Quisque tincidunt leo at ipsum dictum, ac mollis erat pellentesque. Cras bibendum lectus at neque consectetur egestas. Proin laoreet, arcu vitae vehicula vehicula, diam augue feugiat mi, ac lobortis lorem ante ut orci. Mauris fringilla aliquam pulvinar. Morbi suscipit congue sapien ut porttitor. Suspendisse eu ultrices turpis. Quisque ex ante, dignissim tempor pulvinar a, viverra sit amet quam. Maecenas sit amet lorem interdum, vulputate justo non, condimentum eros. Aliquam ut sodales lorem, vel posuere ante. Aliquam augue magna, laoreet non nisl tincidunt, egestas pharetra erat. Fusce malesuada, sem at placerat tincidunt, enim nulla feugiat ipsum, nec vulputate sapien erat a turpis. Donec enim nunc, suscipit tristique sem vitae, dapibus malesuada ex. Proin vitae orci eget diam tristique accumsan id eget neque. Donec consequat, purus ac tincidunt scelerisque, sem mi fringilla ante, vel vestibulum arcu ligula eu nisl. Suspendisse potenti. Nullam vitae eros a tortor consequat pharetra sit amet ac metus.
 
+### Midiendo la luminosidad
+
 Etiam viverra, elit dapibus convallis finibus, lacus leo fermentum nisl, et porttitor diam risus in odio. Sed tincidunt congue volutpat. Sed hendrerit odio at sem posuere dignissim. Aliquam a feugiat quam, sed aliquet odio. Curabitur leo sapien, ullamcorper eget mauris et, fermentum lacinia nulla. Morbi vel facilisis metus. In pretium orci ac massa aliquet, ut sollicitudin urna tempor. Etiam imperdiet in ipsum non porttitor.
 
 Quisque non vestibulum augue. Vivamus mauris mi, ultrices non mollis sed, viverra in lectus. Aenean vitae turpis ligula. Vivamus vel lectus quis lorem cursus pretium in quis nibh. Suspendisse convallis urna vel libero dictum malesuada. Pellentesque dignissim a libero et ullamcorper. Nam dignissim euismod tristique.
 
 Quisque rutrum nunc quis lectus faucibus sodales quis posuere augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas rhoncus dui malesuada nisi vulputate, sit amet rhoncus odio pellentesque. Curabitur non sapien ut arcu semper pretium. Nulla sollicitudin ipsum quis finibus aliquam. Nulla facilisi. Vestibulum a purus cursus, vulputate libero at, lacinia dolor.
+
+### Activando la iluminación cuando sea necesario
+
+### Midiendo la temperatura y la humedad
+
+Etiam viverra, elit dapibus convallis finibus, lacus leo fermentum nisl, et porttitor diam risus in odio. Sed tincidunt congue volutpat. Sed hendrerit odio at sem posuere dignissim. Aliquam a feugiat quam, sed aliquet odio. Curabitur leo sapien, ullamcorper eget mauris et, fermentum lacinia nulla. Morbi vel facilisis metus. In pretium orci ac massa aliquet, ut sollicitudin urna tempor. Etiam imperdiet in ipsum non porttitor.
+
+Quisque non vestibulum augue. Vivamus mauris mi, ultrices non mollis sed, viverra in lectus. Aenean vitae turpis ligula. Vivamus vel lectus quis lorem cursus pretium in quis nibh. Suspendisse convallis urna vel libero dictum malesuada. Pellentesque dignissim a libero et ullamcorper. Nam dignissim euismod tristique.
+
+### Controlando la temperatura y humedad
+
+Quisque tincidunt leo at ipsum dictum, ac mollis erat pellentesque. Cras bibendum lectus at neque consectetur egestas. Proin laoreet, arcu vitae vehicula vehicula, diam augue feugiat mi, ac lobortis lorem ante ut orci. Mauris fringilla aliquam pulvinar. Morbi suscipit congue sapien ut porttitor. Suspendisse eu ultrices turpis. Quisque ex ante, dignissim tempor pulvinar a, viverra sit amet quam. Maecenas sit amet lorem interdum, vulputate justo non, condimentum eros. Aliquam ut sodales lorem, vel posuere ante. Aliquam augue magna, laoreet non nisl tincidunt, egestas pharetra erat. Fusce malesuada, sem at placerat tincidunt, enim nulla feugiat ipsum, nec vulputate sapien erat a turpis. Donec enim nunc, suscipit tristique sem vitae, dapibus malesuada ex. Proin vitae orci eget diam tristique accumsan id eget neque. Donec consequat, purus ac tincidunt scelerisque, sem mi fringilla ante, vel vestibulum arcu ligula eu nisl. Suspendisse potenti. Nullam vitae eros a tortor consequat pharetra sit amet ac metus.
+
+### Midiendo la calidad del agua
+
+Etiam viverra, elit dapibus convallis finibus, lacus leo fermentum nisl, et porttitor diam risus in odio. Sed tincidunt congue volutpat. Sed hendrerit odio at sem posuere dignissim. Aliquam a feugiat quam, sed aliquet odio. Curabitur leo sapien, ullamcorper eget mauris et, fermentum lacinia nulla. Morbi vel facilisis metus. In pretium orci ac massa aliquet, ut sollicitudin urna tempor. Etiam imperdiet in ipsum non porttitor.
+
+Quisque non vestibulum augue. Vivamus mauris mi, ultrices non mollis sed, viverra in lectus. Aenean vitae turpis ligula. Vivamus vel lectus quis lorem cursus pretium in quis nibh. Suspendisse convallis urna vel libero dictum malesuada. Pellentesque dignissim a libero et ullamcorper. Nam dignissim euismod tristique.
+
+### Midiendo la calidad del aire
+
+Etiam viverra, elit dapibus convallis finibus, lacus leo fermentum nisl, et porttitor diam risus in odio. Sed tincidunt congue volutpat. Sed hendrerit odio at sem posuere dignissim. Aliquam a feugiat quam, sed aliquet odio. Curabitur leo sapien, ullamcorper eget mauris et, fermentum lacinia nulla. Morbi vel facilisis metus. In pretium orci ac massa aliquet, ut sollicitudin urna tempor. Etiam imperdiet in ipsum non porttitor.
+
+### Comprobado si el depostio tiene agua
+
+Etiam viverra, elit dapibus convallis finibus, lacus leo fermentum nisl, et porttitor diam risus in odio. Sed tincidunt congue volutpat. Sed hendrerit odio at sem posuere dignissim. Aliquam a feugiat quam, sed aliquet odio. Curabitur leo sapien, ullamcorper eget mauris et, fermentum lacinia nulla. Morbi vel facilisis metus. In pretium orci ac massa aliquet, ut sollicitudin urna tempor. Etiam imperdiet in ipsum non porttitor.
+
+### Regando
+
+Etiam viverra, elit dapibus convallis finibus, lacus leo fermentum nisl, et porttitor diam risus in odio. Sed tincidunt congue volutpat. Sed hendrerit odio at sem posuere dignissim. Aliquam a feugiat quam, sed aliquet odio. Curabitur leo sapien, ullamcorper eget mauris et, fermentum lacinia nulla. Morbi vel facilisis metus. In pretium orci ac massa aliquet, ut sollicitudin urna tempor. Etiam imperdiet in ipsum non porttitor.
+
+### Circuito completo
+
+Etiam viverra, elit dapibus convallis finibus, lacus leo fermentum nisl, et porttitor diam risus in odio. Sed tincidunt congue volutpat. Sed hendrerit odio at sem posuere dignissim. Aliquam a feugiat quam, sed aliquet odio. Curabitur leo sapien, ullamcorper eget mauris et, fermentum lacinia nulla. Morbi vel facilisis metus. In pretium orci ac massa aliquet, ut sollicitudin urna tempor. Etiam imperdiet in ipsum non porttitor.
 
 ## Software
 
