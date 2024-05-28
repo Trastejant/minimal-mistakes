@@ -2,7 +2,8 @@
 title: "Blog"
 permalink: /year-archive/
 layout: posts
-author_profile: true
+entries_layout: grid
+author_profile: false
 header:
   overlay_color: "#000000"
 ---

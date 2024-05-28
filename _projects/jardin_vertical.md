@@ -3,7 +3,7 @@ title: "Jardín Vertical"
 layout: single
 header:
   overlay_color: "#000000"
-  teaser: http://placehold.it/350x250
+  image: http://placehold.it/350x250
 excerpt: "Control de temperatura, humedad e iluminación de forma autonoma."
 sidebar:
   - title: "Jardín Vertical"

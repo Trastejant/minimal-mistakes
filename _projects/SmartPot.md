@@ -3,7 +3,7 @@ title: "Smartpot"
 layout: single
 header:
   overlay_color: "#000000"
-  teaser: http://placehold.it/350x250
+  image: http://placehold.it/350x250
 excerpt: "Una forma divertida de saber lo que tus plantas necesitan."
 sidebar:
   - title: "SmartPot"

@@ -3,7 +3,7 @@ title: "Invernadero 2.0"
 layout: single
 header:
   overlay_color: "#000000"
-  teaser: http://placehold.it/350x250
+  image: http://placehold.it/350x250
 excerpt: "Control de temperatura, humedad e iluminación de forma autonoma."
 sidebar:
   - title: "Invernadero 2.0"
@@ -171,12 +171,11 @@ Etiam viverra, elit dapibus convallis finibus, lacus leo fermentum nisl, et port
 
 Ahora que tenemos todo el Hardware montado es el momento de añadirle al ESP32 el software que sea capaz de gestionar todo ello y darle la coherencia necesaria. Es decir, que sepa que tiene activar los humidificadores en caso de que la humedad sea baja, o los ventiladores para hacer descender la temperatura cuando sea necesario, regar si la tierra esta seca, y en general llevar a cabo las tareas para las que estamos desarrollando todo esto.
 
-
 ### Sin Home Assistant
 
 [![status: Discontinuded](https://github.com/GIScience/badges/raw/master/status/archive.svg)](https://github.com/GIScience/badges#discontinued )
 
-Inicialmente comencé creando un programa dentro del porpio ESP32. Además del control autonomo exponia una web en la que podian verse las lecturas de los distintos sensores y accionar los actuadores de forma manual.
+Inicialmente comencé creando un programa dentro del propio ESP32. Además del control autonomo exponia una web en la que podian verse las lecturas de los distintos sensores y accionar los actuadores de forma manual.
 
 Pero en mi busqueda de simplificar mi vida pronto abandone esta idea y me decante por delegar al gestión y la lógica en mi instalación de Home Assistant. Esto me permite realizar la gestión desde esta plataforma y mantenerla integrada con la domotica de la casa. Lo cual me resulta muy cómodo.
 

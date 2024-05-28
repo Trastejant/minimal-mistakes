@@ -3,7 +3,7 @@ title: "PANTALLA NOKIA 3310/5110"
 layout: single
 header:
   overlay_color: "#000000"
-  teaser: /assets/images/nokia_3310/3310.png
+  image: /assets/images/nokia_3310/3310.png
 excerpt: "Aprende a controlar una pantalla como la que llevaban los Nokia 3310 para mostrar información de tu proyecto."
 
 toc: true
